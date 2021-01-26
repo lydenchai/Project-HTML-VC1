@@ -59,11 +59,11 @@ img{
     padding: 15px 30px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     width: 90%;
-    margin-left: 10px;
+
     border-radius: 30px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .body-content{
     margin-top: 60px;
@@ -101,7 +101,7 @@ h4{
     color: #000;
     text-align: center;
 }
-.hire-me{
+.year, .hire-me{
     background-color: #2ca7ee;
     border: none; 
     outline: none;
