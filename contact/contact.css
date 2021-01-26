@@ -22,6 +22,15 @@ ul, li, a{
     text-decoration: none;
     color: #000;
 }
+a{
+    border-bottom: 3px;
+
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
 nav{
     padding: 5px;
 }
@@ -123,11 +132,11 @@ h4{
    
 }
 textarea{
-    width: 92%;
+    width: 93%;
     height: 50px;
 }
 #name, #email {
-    width: 44.55%;
+    width: 45%;
     height: 30px;
     margin: 5px;
 }
@@ -162,22 +171,39 @@ input[type="submit"]{
         display: flex;
     }
 }
+@media screen and (max-width: 800px ){
+    .aside, .content{
+        width: 100%;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
+    }
+}
 @media screen and (max-width: 768px){
-    .block {
+    .block{
         flex-direction: column;
     }
     .box1, .box2{
         width: 40%;
+        height: 100px;
         margin-right: 30px;
 
+    }
+    .content{
+        width: 100%;
     }
     .experience,
     .education ,aside {
         width: 100%;
     }
 }
-@media screen and (min-width: 300px ){
+@media screen and (min-width: 400px ){
     .aside, .content{
         width: 100%;
+    }
+    .box1,.box2{
+        height: auto;
     }
 }
