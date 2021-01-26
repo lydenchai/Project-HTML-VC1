@@ -103,3 +103,35 @@ h4{
     color: #000;
     text-align: center;
 }
+/*media*/
+
+@media screen and (max-width: 977px){
+    aside,.content {
+        width: 100%;
+    }
+    .body-content {
+        flex-direction: column;
+    }
+    .box {
+        display: flex;
+    }
+}
+@media screen and (max-width: 768px){
+    .block {
+        flex-direction: column;
+    }
+    .box1, .box2{
+        width: 40%;
+        margin-right: 30px;
+
+    }
+    .experience,
+    .education ,aside {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 300px ){
+    .aside, .content{
+        width: 100%;
+    }
+}
