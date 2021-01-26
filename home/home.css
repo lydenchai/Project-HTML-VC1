@@ -171,15 +171,11 @@ h4{
     .box {
         display: flex;
     }
-}
-@media screen and (max-width: 800px ){
-    .aside, .content{
-        width: 100%;
-    }
     .box1, .box2{
         width: 40%;
         height: auto;
         margin-right: 30px;
+
     }
 }
 @media screen and (max-width: 768px){
@@ -188,7 +184,7 @@ h4{
     }
     .box1, .box2{
         width: 40%;
-        height: 100px;
+        height: auto;
         margin-right: 30px;
 
     }
