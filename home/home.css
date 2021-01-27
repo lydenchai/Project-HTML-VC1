@@ -28,6 +28,7 @@ a{
     border-bottom: 3px;
 
 }
+
 a:hover{
     color: red;
     font-weight: bold;
@@ -139,14 +140,32 @@ h4{
     height: 50%;
     
 }
+
+.service{
+    display: flex;
+}
+.left, .right{
+    margin-left: 3px;
+    width: 50%;
+    height: 50%;
+}
+.graphic, .mobile, .develop, .design{
+    display: flex;
+}
+.g, .m, .d, .dv{
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 150px;
+}
 .footer{
     margin-top: 100px;
     margin-bottom: 30px;
-    padding: 40px 30px;
+    padding: 35px 25px;
     background: #000;
     margin-left: 30px;
     margin-right: 30px;
-    
     
 }
 
@@ -182,7 +201,7 @@ h4{
     }
 }
 @media screen and (max-width: 768px){
-    .block{
+    .block, .service{
         flex-direction: column;
     }
     .box1, .box2{
@@ -198,12 +217,8 @@ h4{
     .education ,aside {
         width: 100%;
     }
-}
-@media screen and (min-width: 400px ){
-    .aside, .content{
+    .right, .left{
         width: 100%;
     }
-    .box1,.box2{
-        height: auto;
-    }
+   
 }

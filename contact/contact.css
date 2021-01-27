@@ -162,6 +162,28 @@ input[type="submit"]{
     margin-bottom:20px;
     margin-bottom: 30px;
 }
+.footer{
+    margin-top: 250px;
+    margin-bottom: 30px;
+    padding: 35px 25px;
+    background: #000;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    margin: 10px; 
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
 
 /*media*/
 
@@ -183,7 +205,7 @@ input[type="submit"]{
     }
 }
 @media screen and (max-width: 768px){
-    .block{
+    .form-container{
         flex-direction: column;
     }
     .box1, .box2{
@@ -195,16 +217,8 @@ input[type="submit"]{
     .content{
         width: 100%;
     }
-    .experience,
-    .education ,aside {
-        width: 100%;
+    #name, #email{
+        width: 92%;
     }
-}
-@media screen and (min-width: 400px ){
-    .aside, .content{
-        width: 100%;
-    }
-    .box1,.box2{
-        height: auto;
-    }
+
 }
