@@ -9,6 +9,7 @@
     font-family: sans-serif;
     color: #ffff;
 }
+
 ul{
     list-style: none;
     display: flex;
@@ -34,6 +35,8 @@ a:hover{
 nav{
     padding: 5px;
 }
+
+
 .body-content{
     display: flex;
 }
@@ -123,6 +126,7 @@ h4{
     margin: 5px;
     border: none;
     outline: none;
+    background:rgb(211, 227, 232);
 }
           
 .form-container{

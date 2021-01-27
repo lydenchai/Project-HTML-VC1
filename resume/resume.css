@@ -168,9 +168,8 @@ h4{
     width: 40px;
     border-radius: 50%;
 }
-
 @media screen and (max-width: 977px){
-    aside,.content, .footer{
+    aside,.content{
         width: 100%;
     }
     .body-content {
@@ -200,12 +199,12 @@ h4{
         width: 100%;
     }
     .experience,
-    .education ,aside, .footer{
+    .education ,aside{
         width: 100%;
     }
 }
 @media screen and (min-width: 400px ){
-    .aside, .content, .footer{
+    .aside, .content{
         width: 100%;
     }
     .box1,.box2{
