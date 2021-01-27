@@ -21,7 +21,7 @@ a{
     border-bottom: 3px;
 
 }
-a:hover{
+.active, .nav-link:hover{
     color: red;
     font-weight: bold;
     text-decoration: underline;

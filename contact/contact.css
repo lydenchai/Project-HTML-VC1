@@ -27,7 +27,7 @@ a{
     border-bottom: 3px;
 
 }
-a:hover{
+.active, .nav-link:hover{
     color: red;
     font-weight: bold;
     text-decoration: underline;
@@ -136,13 +136,25 @@ h4{
    
 }
 textarea{
-    width: 93%;
+    width: 100%;
     height: 50px;
+    box-sizing: border-box;
+    
+    
 }
-#name, #email {
-    width: 45%;
-    height: 30px;
-    margin: 5px;
+form{
+    width: 93.5%;
+}
+.input{
+    display: flex;
+    padding: 5px;
+}
+input[type="text"]{
+    width: 50%;
+}
+input[type="email"]{
+    width: 50%;
+    margin-left: 7px;
 }
 input[type="submit"]{
     background: #2ca7ee;
@@ -201,7 +213,6 @@ input[type="submit"]{
         width: 40%;
         height: auto;
         margin-right: 30px;
-
     }
 }
 @media screen and (max-width: 768px){
@@ -212,13 +223,27 @@ input[type="submit"]{
         width: 40%;
         height: auto;
         margin-right: 30px;
-
     }
     .content{
         width: 100%;
     }
-    #name, #email{
-        width: 92%;
+    .input{
+        width: 100%;
     }
-
+}
+@media screen and (max-width: 550px){
+    .form-container{
+        flex-direction: column;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
+    }
+    .content{
+        width: 100%;
+    }
+    .input{
+        width: 100%;
+    }
 }

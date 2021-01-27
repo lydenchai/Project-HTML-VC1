@@ -28,8 +28,7 @@ a{
     border-bottom: 3px;
 
 }
-
-a:hover{
+.active, .nav-link:hover{
     color: red;
     font-weight: bold;
     text-decoration: underline;
@@ -47,12 +46,13 @@ aside{
     padding: 15px;
     margin-left: 20px;
 }
-img{
+.profile{
     border-radius: 50%;
     margin-left: 22%;
     width: 50%;
     padding: 10px;
 }
+
 .content{
     width: 80%;
     height: auto;
@@ -117,30 +117,29 @@ h4{
     text-align: center;
     margin-top: 5px;
 }
-.year, .hire-me{
-    background-color: #2ca7ee;
-    border: none; 
-    outline: none;
-    color: white;
-    padding: 10px 15px;
-    font-size: 10PX;
-    text-decoration: none;
-    font-size: 10px;
-    width: 100px;
-    margin-left: 30px;
-    border-radius: 3px;
-}
 
-.block{
+.about-me{
     display: flex;
+    height: 500px;
 }
-.education,.experience{
-    margin-left: 3px;
+.my-text{
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.597);
     width: 50%;
     height: 50%;
-    
 }
+.my-picture{
+    width: 50%;
+}
+.me{
+    width: 85%;
+    height: 90%;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 35px;
 
+}
 .service{
     display: flex;
 }
@@ -160,7 +159,7 @@ h4{
     margin-left: 150px;
 }
 .footer{
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 30px;
     padding: 35px 25px;
     background: #000;
@@ -199,26 +198,46 @@ h4{
         margin-right: 30px;
 
     }
-}
+    .about-me{
+        display: flex;
+    }
+} 
 @media screen and (max-width: 768px){
-    .block, .service{
+    .block, .service, .content{
         flex-direction: column;
     }
     .box1, .box2{
         width: 40%;
         height: auto;
         margin-right: 30px;
-
+    }
+    .for-service{
+        margin-top: 65%;
+        text-align: center;
     }
     .content{
         width: 100%;
     }
-    .experience,
-    .education ,aside {
-        width: 100%;
-    }
     .right, .left{
         width: 100%;
+        height: auto;
     }
-   
+    .my-picture{
+        margin-left: 30px;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .my-text{
+        height: auto;
+        width: 90%;
+    }
+    .about-me{
+        flex-direction: column;
+    }
+    .design, .develop, .graphic, .mobile{
+        height: auto;
+        width: 100%;
+    }
 }
