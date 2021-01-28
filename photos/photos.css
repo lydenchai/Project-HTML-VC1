@@ -288,7 +288,7 @@ p,a{
     }
 
 }
-@media screen and (min-width: 468px){
+@media screen and (max-width: 468px){
     .content, .first, .second{
         flex-direction: column;
     }
