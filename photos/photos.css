@@ -96,10 +96,12 @@ p{
     padding-top: 12px;
 }
 .box1:hover{
-    background: #a5dfe9;
+    
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .box2:hover{
-    background: #a5dfe9;
+    
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .box1 h2{
     margin-top: 8px;
@@ -228,22 +230,24 @@ p,a{
 .p1:hover{
     background: rgba(38, 37, 37, 0.111);
     color: #2ca7ee;
-    text-decoration: underline;
+    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
+
 }
 .p2:hover{
     background: rgba(38, 37, 37, 0.111);
     color: #2ca7ee;
-    text-decoration: underline;
+    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
 }
 .p3:hover{
     background: rgba(38, 37, 37, 0.111);
     color: #2ca7ee;
-    text-decoration: underline;
+    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
 }
 .p4:hover{
     background: rgba(38, 37, 37, 0.111);
     color: #2ca7ee;
-    text-decoration: underline;
+    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
+
 }
 /*media*/
 @media screen and (max-width: 977px){
@@ -281,6 +285,30 @@ p,a{
         width: 92%;
         margin-right: 30px;
         margin-right: 30px;
+    }
+
+}
+@media screen and (min-width: 468px){
+    .content, .first, .second{
+        flex-direction: column;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 20px;
+    }  
+    .content{
+        margin-left: 30px;
+    }
+    .p1,.p2,.p3,.p4{
+        width: 92%;
+        margin-right: 30px;
+        margin-right: 30px;
+    }
+    .button{
+        width: 92%;
+        margin-left: 5px;
     }
 
 }

@@ -77,10 +77,10 @@ img{
     background-color: RoyalBlue;
 }
 .client2:hover{
-    background: rgb(177, 221, 235);
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .client1:hover{
-    background: rgb(177, 221, 235);
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .body-content{
     margin-top: 60px;
@@ -102,10 +102,10 @@ p{
     padding-top: 12px;
 }
 .box1:hover{
-    background: #a5dfe9;
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .box2:hover{
-    background: #a5dfe9;
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .box1 h2{
     margin-top: 8px;
@@ -133,6 +133,7 @@ h4{
     border: none;
     outline: none;
     background:rgb(211, 227, 232);
+    border-radius: 3px;
 }
 .client2{
     width: 50%;
@@ -141,6 +142,7 @@ h4{
     border: none;
     outline: none;
     background:rgb(211, 227, 232);
+    border-radius: 3px;
 }
           
 .form-container{
@@ -271,5 +273,27 @@ p,a{
     }
     .client1, .client2{
         width: 100%;
+    }
+    
+}
+@media screen and (max-width: 468px){
+    .form-container, .for-button{
+        flex-direction: column;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
+    }
+    .content{
+        width: 92%;
+        margin-left: 30px;
+    }
+    .client1, .client2{
+        width: 100%;
+    }
+    .button{
+        width: 92%;
+        margin-left: 5px;
     }
 }

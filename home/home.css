@@ -95,10 +95,10 @@ p{
     padding-top: 8px;
 }
 .box1:hover{
-    background: #a5dfe9;
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .box2:hover{
-    background: #a5dfe9;
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
     
 }
 .box1 h2{
@@ -281,5 +281,54 @@ p,a{
     .design, .develop, .graphic, .mobile{
         height: auto;
         width: 100%;
+    }
+}
+@media screen and (max-width: 468px){
+    .block, .service, .content{
+        flex-direction: column;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
+    }
+    .for-service{
+        margin-top: 80%;
+        text-align: center;
+    }
+    .content{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .right, .left{
+        width: 100%;
+        height: auto;
+    }
+    #my-picture{
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .my-text{
+        height: auto;
+        width: 90%;
+        margin-left: 25px;
+    }
+    .about-me{
+        flex-direction: column;
+    }
+    .me{
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+    .design, .develop, .graphic, .mobile{
+        height: auto;
+        width: 100%;
+    }
+    .button{
+        width: 92%;
+        margin-left: 5px;
     }
 }
