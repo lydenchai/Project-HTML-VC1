@@ -256,16 +256,11 @@ p,a{
         width: 100%;
     }
 }
-@media screen and (max-width: 468px){
+@media screen and (max-width: 480px){
     .block, .service1{
         flex-direction: column;
     }
-    .box1, .box2{
-        width: 40%;
-        height: auto;
-        margin-right: 30px;
-
-    }
+    
     .service1{
         display: flex;
 
@@ -281,8 +276,17 @@ p,a{
     .left, .right{
         width: 100%;
     }
+    
+    .design,.develop, .graphic,.mobile{
+        margin-left: -10px;
+    }
     .button{
         width: 92%;
-        margin-left: 5px;
+        margin-left: 0;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
     }
 }

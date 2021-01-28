@@ -292,12 +292,7 @@ p,a{
     .content, .first, .second{
         flex-direction: column;
     }
-    .box1, .box2{
-        width: 40%;
-        height: auto;
-        margin-right: 30px;
-        margin-left: 20px;
-    }  
+
     .content{
         margin-left: 30px;
     }
@@ -308,7 +303,12 @@ p,a{
     }
     .button{
         width: 92%;
-        margin-left: 5px;
+        margin-left: 0;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 25px;
     }
 
 }

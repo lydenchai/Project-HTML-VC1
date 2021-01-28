@@ -276,15 +276,11 @@ p,a{
     }
     
 }
-@media screen and (max-width: 468px){
+@media screen and (max-width: 480px){
     .form-container, .for-button{
         flex-direction: column;
     }
-    .box1, .box2{
-        width: 40%;
-        height: auto;
-        margin-right: 30px;
-    }
+  
     .content{
         width: 92%;
         margin-left: 30px;
@@ -292,8 +288,34 @@ p,a{
     .client1, .client2{
         width: 100%;
     }
+
+    input[type="text"]{
+        width: 100%;
+    }
+    input[type="email"]{
+        width: 100%;
+    }
+    #name{
+        width: 92%;
+    }
+    #email{
+        width: 92%;
+        margin-left: 0;
+
+    }
+    .input{
+        flex-direction: column;
+    }
+    #textarea{
+        width: 90%;
+    }
     .button{
         width: 92%;
-        margin-left: 5px;
+        margin-left: 0;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
     }
 }
