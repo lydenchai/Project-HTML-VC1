@@ -36,7 +36,7 @@ nav{
 }
 aside{
 
-    width: 20%;
+    width: 19%;
     padding: 15px;
     margin-left: 20px;
 
@@ -159,7 +159,6 @@ p,a{
 .service{
     display: flex;
 }
-
 .left, .right{
     margin-left: 3px;
     width: 50%;
