@@ -112,7 +112,7 @@ h4{
 }
 
 .footer{
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 30px;
     padding: 20px 15px;
     background: #000;
@@ -135,13 +135,15 @@ h4{
     border-radius: 50%;
 }
 
-.first, .second{
-    display: flex;
-}
+
 p,a{
     font-family: 'Lora', serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+.first, .second{
+    display: flex;
+} 
+
 .p1{
     background-image: url(new.jpg);
     background-position: center;

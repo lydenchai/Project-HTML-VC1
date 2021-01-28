@@ -4,13 +4,7 @@ body{
     font-family: sans-serif;
     background: #e9e7e7;
 }
-.container{
-    width: 100%;
-    font-family: sans-serif;
-    color: #ffff;
-
-} 
-   
+ 
 ul{
     list-style: none;
     display: flex;
@@ -45,6 +39,7 @@ aside{
     width: 20%;
     padding: 15px;
     margin-left: 20px;
+
 }
 .profile{
     border-radius: 50%;
@@ -129,35 +124,34 @@ p,a{
 .my-text{
     background: #5693b62e;
     margin-top: 40px;
-    margin-left: 15px;
+    margin-left: 30px;
     width: 50%;
     height: 90%;
 }
 .my-picture{
-    width: 50%;
+    width: 38%;
+    margin-right: 30px;
 }
 .me{
     width: 90%;
     height: 89%;
     padding: 10px;
-    margin: 0;
     margin-top: 35px;
 
 }
 .info{
-    margin-left: 10px;
+    margin-left: 30px;
     
 }
 .contact{
     display: flex;
-    margin-left: 25px;
 }
 .more{
     padding-left: 20px;
 }
 .call{
     padding: 0;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .detail{
     margin-left: 15px;
@@ -205,6 +199,7 @@ p,a{
     border-radius: 50%;
 }
 
+
 /*responsive */
 @media screen and (max-width: 980px){
     aside,.content {
@@ -247,7 +242,7 @@ p,a{
         width: 100%;
         height: auto;
     }
-    .my-picture{
+    #my-picture{
         box-sizing: border-box;
         width: 100%;
         height: auto;
