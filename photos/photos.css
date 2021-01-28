@@ -99,9 +99,7 @@ p{
     margin-top: 8px;
     margin-bottom: 15px;
 }
-h1{
-    margin-left: 30px;
-}
+
 h2{
     text-align: center;
 }
@@ -140,7 +138,14 @@ h4{
 .first, .second{
     display: flex;
 }
-.p1 ,.p2,.p3,.p4{
+p,a{
+    font-family: 'Lora', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+.p1{
+    background-image: url(new.jpg);
+    background-position: center;
+    background-size: cover;
     box-sizing: border-box;
     padding: 3px;
     margin-left: 20px;
@@ -148,8 +153,67 @@ h4{
     margin-top: 30px;
     width: 480px;
     height: 450px;
+    text-align: center;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-
+.p2{
+    background-image: url(travel.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 480px;
+    height: 450px;
+    text-align: center;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.p3{
+    background-image: url(class2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 480px;
+    height: 450px;
+    text-align: center;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.p4{
+    background-image: url(sport1.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 480px;
+    height: 450px;
+    text-align: center;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h1:hover{
+    color:rgb(33, 235, 250);
+    text-decoration: underline;
+}
 /*media*/
 @media screen and (max-width: 977px){
     aside,.content {
@@ -165,20 +229,27 @@ h4{
         width: 40%;
         height: auto;
         margin-right: 30px;
+        margin-left: 20px;
 
     }
 }
 @media screen and (max-width: 768px){
-    .block{
+    .content, .first, .second{
         flex-direction: column;
     }
     .box1, .box2{
         width: 40%;
         height: auto;
         margin-right: 30px;
-
-    }
+        margin-left: 20px;
+    }  
     .content{
-        width: 100%;
+        margin-left: 30px;
     }
+    .p1,.p2,.p3,.p4{
+        width: 92%;
+        margin-right: 30px;
+        margin-right: 30px;
+    }
+
 }

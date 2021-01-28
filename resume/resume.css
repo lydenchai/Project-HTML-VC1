@@ -165,7 +165,10 @@ h4{
     height: 40px;
     margin-left: 150px;
 }
-
+p,a{
+    font-family: 'Lora', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 .footer{
     margin-top: 100px;
     margin-bottom: 30px;
@@ -221,7 +224,8 @@ h4{
 
     }
     .content{
-        width: 100%;
+        width: 92%;
+        margin-left: 30px;
     }
     .experience,
     .education ,aside{
