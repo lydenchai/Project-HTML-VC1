@@ -88,6 +88,7 @@ p{
     margin-right: 30px;
     font-size: 15px;
 }
+
 .box1,.box2{
     width: 200px;
     height: 180px;
@@ -97,6 +98,12 @@ p{
     border-radius: 10px;
     text-align: center;
     padding-top: 8px;
+}
+.box1:hover{
+    background: #a5dfe9;
+}
+.box2:hover{
+    background: #a5dfe9;
 }
 .box1 h2{
     margin-top: 8px;
@@ -146,6 +153,13 @@ h4{
     margin: 10px;
     width: 225px;
     height: 50px;
+    border: none;
+    outline: none;
+    background: #ebe6e6;
+}
+.client:hover{
+    background: #2ca7ee;
+    font-weight: bold;
 }
 .service1{
     display: flex;
@@ -179,7 +193,9 @@ p,a{
     
     
 }
-
+.footer:hover{
+    background: rgb(47, 48, 48);
+}
 .social-media{
     display: flex;
     justify-content: center;

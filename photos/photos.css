@@ -95,6 +95,12 @@ p{
     text-align: center;
     padding-top: 12px;
 }
+.box1:hover{
+    background: #a5dfe9;
+}
+.box2:hover{
+    background: #a5dfe9;
+}
 .box1 h2{
     margin-top: 8px;
     margin-bottom: 15px;
@@ -112,7 +118,7 @@ h4{
 }
 
 .footer{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 30px;
     padding: 20px 15px;
     background: #000;
@@ -121,7 +127,9 @@ h4{
     
     
 }
-
+.footer:hover{
+    background: rgb(47, 48, 48);
+}
 .social-media{
     display: flex;
     justify-content: center;
@@ -212,8 +220,24 @@ p,a{
     align-items: center;
     display: flex;
 }
-h1:hover{
-    color:rgb(33, 235, 250);
+.p1:hover{
+    background: rgba(38, 37, 37, 0.111);
+    color: #2ca7ee;
+    text-decoration: underline;
+}
+.p2:hover{
+    background: rgba(38, 37, 37, 0.111);
+    color: #2ca7ee;
+    text-decoration: underline;
+}
+.p3:hover{
+    background: rgba(38, 37, 37, 0.111);
+    color: #2ca7ee;
+    text-decoration: underline;
+}
+.p4:hover{
+    background: rgba(38, 37, 37, 0.111);
+    color: #2ca7ee;
     text-decoration: underline;
 }
 /*media*/

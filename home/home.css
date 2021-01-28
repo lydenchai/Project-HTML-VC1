@@ -94,6 +94,12 @@ p{
     text-align: center;
     padding-top: 8px;
 }
+.box1:hover{
+    background: #a5dfe9;
+}
+.box2:hover{
+    background: #a5dfe9;
+}
 .box1 h2{
     margin-top: 8px;
     margin-bottom: 15px;
@@ -127,6 +133,10 @@ p,a{
     margin-left: 30px;
     width: 50%;
     height: 90%;
+}
+.my-text:hover{
+    background: #a7a6a6;
+    font-weight: bold;
 }
 .my-picture{
     width: 38%;
@@ -183,7 +193,9 @@ p,a{
     margin-right: 30px;
     
 }
-
+.footer:hover{
+    background: rgb(47, 48, 48);
+}
 .social-media{
     display: flex;
     justify-content: center;
