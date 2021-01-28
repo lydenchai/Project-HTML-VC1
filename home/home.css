@@ -99,6 +99,7 @@ p{
 }
 .box2:hover{
     background: #a5dfe9;
+    
 }
 .box1 h2{
     margin-top: 8px;
@@ -128,22 +129,23 @@ p,a{
 }
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 .my-text{
-    background: #5693b62e;
+    background:#e9e8e8 rgb(211, 227, 232);
     margin-top: 40px;
     margin-left: 30px;
     width: 50%;
     height: 90%;
+    
 }
 .my-text:hover{
-    background: #a7a6a6;
-    font-weight: bold;
+    background: rgb(211, 227, 232);
+    border-radius: 5px;
 }
 .my-picture{
     width: 38%;
     margin-right: 30px;
 }
 .me{
-    width: 90%;
+    width: 92%;
     height: 89%;
     padding: 10px;
     margin-top: 35px;
@@ -201,7 +203,11 @@ p,a{
     justify-content: center;
     align-items: center;
 }
-
+.social-media > a > i {
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+}
 .pic{
     margin: 10px; 
     padding: 10px;

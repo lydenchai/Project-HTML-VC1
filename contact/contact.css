@@ -225,6 +225,11 @@ p,a{
     justify-content: center;
     align-items: center;
 }
+.social-media > a > i {
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+}
 .pic{
     margin: 10px; 
     padding: 10px;
