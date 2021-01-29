@@ -383,4 +383,7 @@ p,a{
         height: auto;
         margin-right: 30px;
     }
+    .contact{
+        flex-direction: column;
+    }
 }
