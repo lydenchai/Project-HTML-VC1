@@ -130,7 +130,7 @@ h4{
     
 }
 .footer:hover{
-    background: rgb(47, 48, 48);
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 .social-media{
     display: flex;
@@ -288,7 +288,35 @@ p,a{
     }
 
 }
-@media screen and (max-width: 468px){
+@media screen and (max-width: 568px){
+    .content, .first, .second{
+        flex-direction: column;
+    }
+
+    .content{
+        margin-left: 30px;
+    }
+    .p1,.p2,.p3,.p4{
+        width: 92%;
+        margin-right: 30px;
+        margin-right: 30px;
+    }
+    .button{
+        width: 92%;
+        margin-left: 20px;
+    }
+    .box1, .box2{
+        width: 40%;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 25px;
+    }
+    .for-service{
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 450px){
     .content, .first, .second{
         flex-direction: column;
     }
