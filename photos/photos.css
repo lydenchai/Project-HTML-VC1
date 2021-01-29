@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: #e9e7e7;
+   
 }
 .nav{
     overflow: hidden;
@@ -226,25 +227,36 @@ p,a{
     display: flex;
 }
 .p1:hover{
-    background: rgba(38, 37, 37, 0.111);
+    background-image: url(/photos/download.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
     color: #2ca7ee;
-    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
+   
 
 }
 .p2:hover{
-    background: rgba(38, 37, 37, 0.111);
+    background-image: url(/photos/download.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
     color: #2ca7ee;
-    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
+   
 }
 .p3:hover{
-    background: rgba(38, 37, 37, 0.111);
+    background-image: url(/photos/download.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
     color: #2ca7ee;
-    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
+    
 }
 .p4:hover{
-    background: rgba(38, 37, 37, 0.111);
+    background-image: url(/photos/download.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
     color: #2ca7ee;
-    box-shadow: inset 1px 1px 2px #787b85, inset -1px -1px 2px #fff;
 
 }
 /*media*/
